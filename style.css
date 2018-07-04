@@ -1,0 +1,53 @@
+nav{
+    float:left;
+    font-family: sans-serif;
+    font-size: 12pt;
+    color: black;
+    padding: 10px;
+    margin: 10px;
+}
+
+nav:hover{
+    color: lightseagreen;
+}
+
+nav:active{
+    color: lightseagreen;
+    font-weight: bold; 
+}
+
+.portrait{
+    padding: 2%;
+    margin: 2%;
+    border: 2px dotted black;
+    border-radius: 25px;
+}
+
+.header{
+    font-size: 20pt;
+    margin: 40px 20px;
+}
+
+.btnoverride{
+    background-color: lightseagreen;
+    color: white;
+}
+
+.btnoverride:hover{
+    box-shadow: 2px 2px 2px gray;
+    color: white;
+    font-weight: bold;
+}
+
+.btnoverride:active{
+    border: gray;
+    color: white;
+    font-weight: bold;
+
+}
+
+#pinkjumbo{
+    background-color:lightpink;
+    border-radius: 25px;
+    color: black;
+}
